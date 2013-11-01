@@ -9,19 +9,19 @@ body{
     font-size: 20px !important;
     line-height: 24px !important;
     overflow: hidden;
+    font-family: Verdana,Vera Sans,sans-serif;
 }
 
 /*** HEADER ***/
 #header {
-    background-color: #333333;
-    background-image: -moz-linear-gradient(top, #444444, #222222);
-    background-image: -ms-linear-gradient(top, #444444, #222222);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
-    background-image: -webkit-linear-gradient(top, #444444, #222222);
-    background-image: -o-linear-gradient(top, #444444, #222222);
-    background-image: linear-gradient(top, #444444, #222222);
-    box-shadow: 0 0 7px rgba(0,0,0,0.6);
-    height: 70px;
+    background-color: #000000;
+    background-image: -moz-linear-gradient(top, #f98131, #ffce00);
+    background-image: -ms-linear-gradient(top, #f98131, #ffce00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f98131), to(#ffce00));
+    background-image: -webkit-linear-gradient(top, #f98131, #ffce00);
+    background-image: -o-linear-gradient(top, #f98131, #ffce00);
+    background-image: linear-gradient(top, #f98131, #ffce00);
+    height: 60px;
     margin-bottom: 20px;
     padding: 7px 20px 0;
     position: relative;
@@ -29,7 +29,7 @@ body{
 #logo {
     position: absolute;
     top: 8px;
-    left: 75px;
+    left: 20px;
 }
 
 #currentTime {
@@ -38,14 +38,14 @@ body{
     position:absolute;
     text-align:right;
     top:110px;
-    right:40px;
+    right:20px;
     padding-left:30px;
     background: url(../img/glyphicons_054_clock_big.png) no-repeat scroll 0px 0px;
 }
 
 /*** FOOTER ***/
 #footer {
-    color: #999999;
+    color: #000000;
     font-size: 16px;
     clear: both;
     margin-top: 50px;
@@ -55,26 +55,25 @@ body{
     bottom: 0px;
     height: 30px;
     padding-top: 10px;
-    background-color: #333333;
-    background-image: -moz-linear-gradient(top, #444444, #222222);
-    background-image: -ms-linear-gradient(top, #444444, #222222);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
-    background-image: -webkit-linear-gradient(top, #444444, #222222);
-    background-image: -o-linear-gradient(top, #444444, #222222);
-    background-image: linear-gradient(top, #444444, #222222);
-    box-shadow: 0 0 7px rgba(0,0,0,0.6);
-    border-top: 1px solid #999999;
+    background-color: #ff8800;
+    background-image: -moz-linear-gradient(top, #f98131, #ffce00);
+    background-image: -ms-linear-gradient(top, #f98131, #ffce00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f98131), to(#ffce00));
+    background-image: -webkit-linear-gradient(top, #f98131, #ffce00);
+    background-image: -o-linear-gradient(top, #f98131, #ffce00);
+    background-image: linear-gradient(top, #f98131, #ffce00);
+    border-top: 1px solid #ff4f00;
 
 }
 .event_name_description {
-    left: 75px;
+    left: 20px;
     float: left;
     position: absolute;
     width: 50%;
 }
 .event_date_location {
     text-align: right;
-    right: 40px;
+    right: 20px;
     position: absolute;
     width: 40%;
 }
@@ -84,7 +83,7 @@ body{
     position: absolute;
     left: 75px;
     top: 150px;
-    right: 40px;
+    right: 20px;
     z-index: -1;
     line-height: normal;
     transition-property: margin, font-size;
@@ -149,12 +148,12 @@ hr {
 {
     font-size:130%;
     padding-bottom: 20px;
-    list-style-type: none;
+    list-style-type: square;
 }
 .itemlist .closed
 {
     color: #9FA9B7;
-    list-style-type: none;
+    list-style-type: square;
 }
 
 
